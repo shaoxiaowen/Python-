@@ -3,6 +3,7 @@ import argparse
 import os
 from os.path import *
 
+
 def tryZipwd(zipFile,password,savePath):
     try:
         zipFile.extractall(path=savePath,pwd=password.encode('utf-8'))
