@@ -16,7 +16,6 @@ Examples:
     tickets -dg 成都 南京 2016-10-10
 """
 
-
 import urllib.request
 import ssl
 import requests
