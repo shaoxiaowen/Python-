@@ -5,3 +5,5 @@ build/
 .gz
 .dmg
 gephi/
+.DS_Store
+.vscode
