@@ -10,3 +10,4 @@ setup(
 )
 # 执行 python3 setup.py install 安装
 # tickets 北京 上海 2019-05-10 查询
+# 通过 pip uninstall tickets 卸载
