@@ -1,0 +1,1 @@
+Mac gephi 读取不了txt 所以输出数据的格式改为csv
