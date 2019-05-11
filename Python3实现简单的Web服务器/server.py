@@ -165,10 +165,9 @@ class RequestHandler(BaseHTTPRequestHandler):
 
     def send_content(self, page):
         self.send_response(200)
-        self.send_header("Content_Type", "text/html")
+        self.send_header("Content-type", "text/html")
         self.send_header("Content-Length", str(len(page)))
-        self.end_headers
-        # self.wfile.write(page.encode('utf-8'))
+        self.end_headers()
         self.wfile.write(page)
     # 处理出现错误的情况
 
